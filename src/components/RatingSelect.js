@@ -1,8 +1,4 @@
-import { useState } from 'react';
-
 const RatingSelect = ({ select, selected }) => {
-  //   const [selected, setSelected] = useState(10);
-
   const handleChange = (e) => {
     // plus sign changes value from string to number
     select(+e.currentTarget.value);
